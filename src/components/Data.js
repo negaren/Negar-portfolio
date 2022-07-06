@@ -1,7 +1,7 @@
 import mealsharing from "../images/mealsharing.png";
- import weatherApp from "../images/weatherApp.png";
- import whoIsTheFastest from "../images/whoIsTheFastest.png";
- import simplySpices from "../images/hero_image.png"
+ import weatherApp from "../images/weather-app.png";
+ import fastestPresser from "../images/faster-presser-game.png";
+ import simplySpices from "../images/simply-spices.png"
  import toDo from "../images/toDo.png"
 
 export const projects = [
@@ -25,7 +25,7 @@ export const projects = [
     title: "Game, Who's the fastest",
     subtitle: "Using HTML, CSS, JS",
     description: "Who is the is the fastest on clicking.",
-    image: whoIsTheFastest,
+    image: fastestPresser,
     link: "https://github.com/negaren/hyf-homework/blob/master/javascript/javascript2/week3/warmup.js",
   },
   {
