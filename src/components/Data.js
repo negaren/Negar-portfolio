@@ -2,6 +2,7 @@ import mealsharing from "../images/mealsharing.png";
  import weatherApp from "../images/weatherApp.png";
  import whoIsTheFastest from "../images/whoIsTheFastest.png";
  import simplySpices from "../images/hero_image.png"
+ import toDo from "../images/toDo.png"
 
 export const projects = [
   {
@@ -31,7 +32,7 @@ export const projects = [
     title: "Todo app",
     subtitle: "Using ReactJs",
     description: "Have your daily schedule in your phone ",
-    image: "",
+    image: toDo,
     link: "https://github.com/negaren/hyf-homework/tree/master/react/react1/week2/my-app/src",
   },
   {
@@ -55,6 +56,9 @@ export const skills = [
   "Git",
   "RESTApi",
   "Docker",
+  "Swagger",
+  "Jira",
+  "Agile Scrum",
 ];
 export const pictures = [{ picture1: "png" }];
 export const educations = [
