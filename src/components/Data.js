@@ -54,11 +54,13 @@ export const skills = [
   "KNEX",
   "MySQL",
   "Git",
-  "RESTApi",
   "Docker",
   "Swagger",
   "Jira",
   "Agile Scrum",
+  "Heroku",
+  "Figma",
+  "RESTFullApi",
 ];
 export const pictures = [{ picture1: "png" }];
 export const educations = [
@@ -75,16 +77,16 @@ export const educations = [
 ];
 export const experience = [
   {
-    period: "July 2020 - present",
-    position: "Sale Assistance",
-    company: "ZARA, Field's, Copenhagen",
-    details: "Customer Service",
+    period: "",
+    position: "",
+    company: "",
+    details: "",
   },
   {
-    period: "September 2019 _ Jun 2020",
-    position: "Sale Assistance",
-    company: "Plantorama",
+    period: "",
+    position: "",
+    company: "",
     details:
-      "Consultancy in the choice of plants and plant design for indoor and outdoor plants",
+      "",
   },
 ];

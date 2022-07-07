@@ -1,5 +1,7 @@
 import React from "react";
 import { useState } from "react";
+import { MailIcon, PhoneIcon } from "@heroicons/react/solid";
+
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -28,8 +30,8 @@ export default function Contact() {
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
-            width="150px"
-            height="150px"
+            width="50%"
+            height="50%"
             title="map"
             className="absolute inset-0"
             frameBorder={0}
@@ -49,16 +51,18 @@ export default function Contact() {
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                EMAIL
-              </h2>
+              <MailIcon className="text-400 w-6 h-6 flex-shrink-0 mr-4"/>
               <a className="text-indigo-400 leading-relaxed">
                 negar.en@gmail.com
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
-              </h2>
+              <PhoneIcon className="text-400 w-6 h-6 flex-shrink-0 mr-4"/>
               <p className="leading-relaxed">91973545</p>
+              <a href="https://github.com/negaren" rel="noreferrer">
+              <img src="/vectors/github_icon.svg" alt="linkedin icon" style={{padding:"5px"}} />
+              </a>
+              <a href="https://www.linkedin.com/in/negaren/" rel="noreferrer">
+              <img src="/vectors/linkedin_icon.svg" alt="linkedin icon" style={{padding:"5px"}}  /> 
+              </a>
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import pdf from "./Negar-WD-Resume-V1.pdf"
 
 export default function About() {
   return (
@@ -24,10 +25,10 @@ export default function About() {
               Contact me
             </a>
             <a
-              href="#projects"
+              href={pdf}
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
             >
-              Projects
+              CV
             </a>
           </div>
         </div>
