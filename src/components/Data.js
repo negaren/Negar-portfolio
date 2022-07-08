@@ -19,7 +19,7 @@ export const projects = [
     description:
       "An application to let people share their food with eachother and enjoy new tastes.",
     image: mealsharing,
-    link: "https://meal-sharing-negar.herokuapp.com/",
+    link: "https://negar-meal-sharing.herokuapp.com/",
   },
   {
     title: "Game, Who's the fastest",
